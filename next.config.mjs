@@ -6,4 +6,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig; // Eğer dosyanın adı mjs ise "export default nextConfig;" yazmalısın.
+export default nextConfig;
