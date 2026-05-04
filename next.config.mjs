@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig; // Eğer dosyanın adı mjs ise "export default nextConfig;" yazmalısın.
